@@ -1,0 +1,29 @@
+[
+
+]
+
+
+[
+    {
+        "model": "levelupapi.event",
+        "pk": 1,
+        "game"
+        "fields": {
+            "name": "Event - Board Game"
+        }
+    },
+    {
+        "model": "levelupapi.gametype",
+        "pk": 2,
+        "fields": {
+            "label": "Role-playing game"
+        }
+    },
+    {
+        "model": "levelupapi.gametype",
+        "pk": 3,
+        "fields": {
+            "label": "MMO game"
+        }
+    }
+]

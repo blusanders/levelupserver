@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "/Users/blufordsanders/.local/share/virtualenvs/levelup-HN_reQph/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Level Up",
+            "database": "db.sqlite3"
+        }
+    ],
+    "python.linting.pylintEnabled": true
+}
