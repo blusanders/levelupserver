@@ -91,7 +91,7 @@ class Games(ViewSet):
         game.gamer = gamer
 
         gametype = GameType.objects.get(pk=request.data["gameTypeId"])
-        game.gametype = gametype
+        game.game_type = gametype
         game.save()
 
         # 204 status code means everything worked but the
