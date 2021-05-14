@@ -11,7 +11,6 @@ from rest_framework import serializers
 from levelupapi.models import Game, Event, Gamer, Attendee
 from levelupapi.views.game import GameSerializer
 
-
 class Events(ViewSet):
     """Level up events"""
 
