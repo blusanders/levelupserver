@@ -8,7 +8,7 @@ from rest_framework.decorators import action
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers
-from levelupapi.models import Game, Event, Gamer, Attendee
+from levelupapi.models import Game, Event, Gamer
 from levelupapi.views.game import GameSerializer
 
 class Events(ViewSet):
